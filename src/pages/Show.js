@@ -6,6 +6,8 @@ function Show(props) {
     return (
         <div className="cheese">
             <h1>{cheese.name}</h1>
+            <img src ={cheese.image} alt={cheese.name} />
+            <h3>{cheese.countryOfOrigin}</h3>
         </div>
     )
   }
