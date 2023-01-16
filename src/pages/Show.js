@@ -1,5 +1,13 @@
-function Show(props) {
-    return <h1>Show Page</h1>
-}
+import { useLoaderData } from "react-router-dom"
 
-export default Show
+function Show(props) {
+    const cheese = useLoaderData()
+
+    return (
+        <div className="cheese">
+            <h1>{cheese.name}</h1>
+        </div>
+    )
+  }
+  
+  export default Show

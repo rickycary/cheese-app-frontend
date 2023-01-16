@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Header(props) {
+function Component(props) {
     return (
         <nav className="nav">
             <Link to="/">
@@ -8,6 +8,6 @@ function Header(props) {
             </Link>
         </nav>
     )
-}
-
-export default Header
+  }
+  
+  export default Component
